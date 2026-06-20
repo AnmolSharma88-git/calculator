@@ -1,35 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calculator">
-                <button id="content0">AC</button>
-                <button id="content0">DEL</button>
-                <button id="content0">%</button>
-                <button id="content1">/</button>
-                <button id="content">7</button>
-                <button id="content">8</button>
-                <button id="content">9</button>
-                <button id="content1">*</button>
-                <button id="content">4</button>
-                <button id="content">5</button>
-                <button id="content">6</button>
-                <button id="content1">-</button>
-                <button id="content">1</button>
-                <button id="content">2</button>
-                <button id="content">3</button>
-                <button id="content1">+</button>
-                <button id="content">0</button>
-                <button id="content">00</button>
-                <button id="content">.</button>
-                <button id="content1">=</button>
-            
-    </div>
+<div class="calculator">
+
+    <input type="text" id="display" value="0" readonly>
+
+    <button type="button" class="btn_action" id="ac">AC</button>
+    <button type="button" class="btn_action" id="del">DEL</button>
+    <button type="button" class="btn_opr" id="percent">%</button>
+    <button type="button" class="btn_opr" id="divide">/</button>
+
+    <button type="button" class="btn_num" id="seven">7</button>
+    <button type="button" class="btn_num" id="eight">8</button>
+    <button type="button" class="btn_num" id="nine">9</button>
+    <button type="button" class="btn_opr" id="multiply">*</button>
+
+    <button type="button" class="btn_num" id="four">4</button>
+    <button type="button" class="btn_num" id="five">5</button>
+    <button type="button" class="btn_num" id="six">6</button>
+    <button type="button" class="btn_opr" id="minus">-</button>
+
+    <button type="button" class="btn_num" id="one">1</button>
+    <button type="button" class="btn_num" id="two">2</button>
+    <button type="button" class="btn_num" id="three">3</button>
+    <button type="button" class="btn_opr" id="plus">+</button>
+
+    <button type="button" class="btn_num" id="zero">0</button>
+    <button type="button" class="btn_num" id="doubleZero">00</button>
+    <button type="button" class="btn_num" id="dot">.</button>
+    <button type="button" class="btn_opr" id="equal">=</button>
+
+</div>
+
+<script src="calc.js"></script>
+
 </body>
 </html>
